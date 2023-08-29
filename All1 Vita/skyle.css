@@ -1,0 +1,56 @@
+.son-1 {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    border: 1px black solid;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: 10px 10px black;
+    border-radius: 5px;
+    
+}
+
+body {
+    background-color: darkgoldenrod;
+}
+
+.ww {
+    display: block;
+    margin: 0 auto;
+    width: 321px;
+    height: 4px;
+    background-color: black;
+    position: relative;
+    right: 10px;
+    top: 10px;
+
+}
+
+
+p {
+    position: relative;
+    bottom: 20px;
+
+}
+
+.son {
+    width: 260px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 10px 10px black;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.son h1 {
+    text-align: center;
+}
+
+.father {
+    margin: 60px auto;
+    width: 900px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
